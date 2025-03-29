@@ -56,7 +56,8 @@ It efficiently processes customer orders through dynamically linked **workstatio
 ### **Prerequisites**  
 - C++ Compiler (e.g., **G++ or MSVC**)  
 - C++ Standard Library (**STL**)  
-- A terminal or IDE (e.g., **VS Code, Visual Studio, or CLion**)  
+- A terminal or IDE (e.g., **VS Code, Visual Studio, or CLion**)
+- Set up Environment Variable as Stations1.txt Stations2.txt CustomerOrders.txt Assembly_Line.txt 
 
 ##🏆 Tech Stack
 - Language: C++ (OOP, STL, File I/O)
