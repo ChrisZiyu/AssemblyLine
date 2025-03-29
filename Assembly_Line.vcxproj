@@ -127,12 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CustomerOrder.cpp" />
+    <ClCompile Include="LineManager.cpp" />
+    <ClCompile Include="M3.cpp" />
+    <ClCompile Include="Station.cpp" />
     <ClCompile Include="Utilities.cpp" />
     <ClCompile Include="Workstation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CustomerOrder.h" />
+    <ClInclude Include="LineManager.h" />
+    <ClInclude Include="Station.h" />
     <ClInclude Include="Utilities.h" />
     <ClInclude Include="Workstation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assembly_Line.txt" />
+    <Text Include="CustomerOrders.txt" />
+    <Text Include="Stations1.txt" />
+    <Text Include="Stations2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
